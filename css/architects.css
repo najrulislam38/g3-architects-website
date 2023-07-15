@@ -21,6 +21,12 @@ body{
     font-weight: 600;
 }
 
+.text-gray{
+    color: #727272;
+}
+
+
+
 /* header styles */
 header{
     background-color: rgba(255, 144, 14, 0.10);
@@ -68,13 +74,66 @@ nav li a{
 }
 
 .banner-description{
-    color: #727272;
     margin: 20px 0;
 }
 
 .banner img{
     width: 100%;
 }
+
+
+/* main area styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 240px;
+}
+
+/* terms features area styles */
+.terms-features-container{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.terms-member{
+    width: 50%;
+}
+
+.terms-member-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.terms-member-img-container img{
+    width: 100%;
+}
+
+.terms-content{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.terms-title{
+    font-size: 2.775rem;
+    font-weight: 700;
+}
+
+.quick-list{
+    font-weight: 500;
+}
+
+.terms-text{
+    color: #FF900E;
+}
+
+.terms-description{
+    margin: 20px 0;
+}
+
+
+
 
 
 /* responsive for mobile devices */
