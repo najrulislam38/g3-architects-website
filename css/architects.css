@@ -138,22 +138,55 @@ main{
 
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
-    header{
+    header,
+    main{
         padding: 20px;
     }
 
-    nav{
+    nav,
+    .terms-features-container{
         flex-direction: column;
+    }
+
+    .banner-title{
+        font-size: 3rem;
+    }
+
+    .terms-member-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .terms-member,
+    .terms-content{
+        width: 100%;
+    }
+    
+    .terms-content{
+        padding: 0;
+        margin-top: 20px;
     }
 }
 
 /* Responsive for Tablet of medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    header{
+    header,
+    main{
         padding: 50px;
     }
 
-    nav{
+    nav,
+    .terms-features-container{
         flex-direction: column;
     }
+
+    .terms-member,
+    .terms-content{
+        width: 100%;
+    }
+    
+    .terms-content{
+        padding: 0;
+        margin-top: 20px;
+    }
+
 }
