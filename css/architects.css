@@ -90,7 +90,7 @@ main{
 }
 
 /* terms features area styles */
-.terms-features-container{
+.terms-container{
     display: flex;
     align-items: center;
     margin-top: 80px;
@@ -144,7 +144,7 @@ main{
     }
 
     nav,
-    .terms-features-container{
+    .terms-container{
         flex-direction: column;
     }
 
@@ -175,7 +175,7 @@ main{
     }
 
     nav,
-    .terms-features-container{
+    .terms-container{
         flex-direction: column;
     }
 
