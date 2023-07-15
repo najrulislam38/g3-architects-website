@@ -58,7 +58,7 @@ nav li a{
 .banner-content{
     max-width: 800px;
     text-align: center;
-    margin: 0 auto 20px;
+    margin: 20px auto;
 }
 
 .banner-title{
@@ -69,6 +69,7 @@ nav li a{
 
 .banner-description{
     color: #727272;
+    margin: 20px 0;
 }
 
 .banner img{
