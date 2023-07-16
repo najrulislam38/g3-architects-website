@@ -89,7 +89,7 @@ main{
     padding: 0 240px;
 }
 
-/* terms features area styles */
+/* terms area styles */
 .terms-container{
     display: flex;
     align-items: center;
@@ -115,7 +115,7 @@ main{
     padding: 0 50px;
 }
 
-.terms-title{
+.section-title{
     font-size: 2.775rem;
     font-weight: 700;
 }
@@ -132,8 +132,49 @@ main{
     margin: 20px 0;
 }
 
+/* features area styles */
+.features{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+}
 
+.features-content{
+    width: 50%;
+}
 
+.features-title{
+    margin: 24px 0;
+    padding-left: 24px;
+    border-left: 5px solid #FF900E;
+}
+
+.features .card{
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 1px gray;
+    background-color: #fff;
+}
+
+.features .card:first-of-type{
+    margin-top: 20px;
+}
+
+.features .card-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.features-photo {
+    width: 50%;
+}
+
+.features-photo img{
+    width: 100%;
+}
 
 
 /* responsive for mobile devices */
