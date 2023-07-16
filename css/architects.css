@@ -212,6 +212,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .fact .card{
@@ -229,6 +230,7 @@ main{
 }
 
 .fact .card p{ 
+    max-width: 542px;
     color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
@@ -245,7 +247,8 @@ main{
 
     nav,
     .terms-container,
-    .features
+    .features,
+    .card-container
     {
         flex-direction: column;
     }
@@ -274,6 +277,7 @@ main{
         position: static;
         margin: 20px auto;
     }
+
 }
 
 /* Responsive for Tablet of medium devices */
@@ -285,7 +289,9 @@ main{
 
     nav,
     .terms-container,
-    .features{
+    .features,
+    .card-container
+    {
         flex-direction: column;
     }
 
@@ -305,5 +311,6 @@ main{
         position: static;
         margin: 20px auto;
     }
+    
 
 }
