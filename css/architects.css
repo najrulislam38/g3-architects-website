@@ -30,7 +30,7 @@ body{
 /* header styles */
 header{
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px ;
+    padding: 50px 140px ;
 }
 
 nav{
@@ -86,7 +86,7 @@ nav li a{
 main{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 240px;
+    padding: 0 140px;
 }
 
 /* terms area styles */
@@ -136,7 +136,7 @@ main{
 .features{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
     margin-top: 100px;
 }
 
@@ -151,14 +151,14 @@ main{
 }
 
 .features .card{
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 1px gray;
     background-color: #fff;
 }
 
 .features .card:first-of-type{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .features .card-title{
@@ -175,6 +175,28 @@ main{
 .features-photo img{
     width: 100%;
 }
+
+.experience-wrap{
+    width: max-content;
+    background-color: #FF900E;
+    padding: 45px 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    bottom: 80px;
+    right: 25px;
+}
+
+.experience-wrap h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.experience-wrap p{
+    font-size: 1.25rem;
+}
+
 
 
 /* responsive for mobile devices */
