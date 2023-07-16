@@ -198,6 +198,43 @@ main{
 }
 
 
+/* fact area styles */
+.fact{
+    margin-top: 100px;
+}
+
+.fact p{
+    margin: 24px 0;
+}
+
+.card-container{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fact .card{
+    padding: 45px 35px;
+    text-align: center;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+
+.fact .card h3{ 
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.fact .card p{ 
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
 
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
