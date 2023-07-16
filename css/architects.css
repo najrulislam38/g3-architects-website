@@ -256,18 +256,33 @@ main{
     gap: 50px;
 }
 
+/* footer area styles */
+.footer{
+    margin: 100px 140px 140px;
+    padding: 20px 0;
+    background-color: rgba(255, 144, 14, 0.10);
+    text-align: center;
+}
+
+.copyright{
+    color: #424242;
+}
+
+
 
 /* responsive for mobile devices */
 @media screen and (max-width: 576px) {
     header,
-    main{
+    main
+    {
         padding: 20px;
     }
 
     nav,
     .terms-container,
     .features,
-    .card-container
+    .card-container,
+    .responsers-logo-wrapper
     {
         flex-direction: column;
     }
@@ -297,19 +312,26 @@ main{
         margin: 20px auto;
     }
 
+    .footer{
+        margin: 100px 20px;
+    }
+
 }
 
 /* Responsive for Tablet of medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
     header,
-    main{
+    main,
+    .footer
+    {
         padding: 50px;
     }
 
     nav,
     .terms-container,
     .features,
-    .card-container
+    .card-container,
+    .responsers-logo-wrapper
     {
         flex-direction: column;
     }
@@ -331,4 +353,27 @@ main{
         margin: 20px auto;
     }
 
+    .footer{
+        margin: 100px 50px
+    }
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+
+    .features,
+    .responsers-logo-wrapper
+    {
+        flex-direction: column;
+    }
+
+    .features-content,
+    .features-photo{
+        width: 100%;
+    }
+
+    .experience-wrap{
+        position: static;
+        margin: 20px auto;
+    }
 }
