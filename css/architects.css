@@ -204,6 +204,7 @@ main{
 }
 
 .fact p{
+    max-width: 542px;
     margin: 24px 0;
 }
 
@@ -211,7 +212,7 @@ main{
     margin: 100px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 30px;
 }
 
@@ -230,11 +231,29 @@ main{
 }
 
 .fact .card p{ 
-    max-width: 542px;
     color: #727272;
     font-size: 1.25rem;
     font-weight: 600;
     margin: 5px 0;
+}
+
+
+/* our responsers area styles */
+.our-responsers{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.our-responsers .text-gray{
+    max-width: 542px;
+    margin: 10px auto 50px;
+}
+
+.responsers-logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 
 
